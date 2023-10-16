@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #151515;
+  font-family: "Poppins", sans-serif;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  box-shadow: 0 1px 2px #aeaeae;
+}
+
+.task-details span {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.edit-btn {
+  color: #4c4e50;
+  padding: 0.15em;
+  margin-right: 1rem;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+}
+
+.delete-btn {
+  color: red;
+  padding: 0.15em;
+  margin-right: 1rem;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+}
+
+.add-btn {
+  margin-top: 2rem;
+}
